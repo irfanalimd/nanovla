@@ -1,0 +1,10 @@
+# Core. Colab already ships torch with CUDA; this won't reinstall it if the version is satisfied.
+torch>=2.2
+numpy>=1.24
+pyarrow>=15
+huggingface_hub>=0.25
+pillow>=10
+tqdm>=4.66
+
+# Dev / tests
+pytest>=8

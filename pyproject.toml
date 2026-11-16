@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nanovla"
+version = "0.0.1"
+description = "A small vision-language-action model trained on LIBERO"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+    "numpy>=1.24",
+    "pyarrow>=15",
+    "huggingface_hub>=0.25",
+    "pillow>=10",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["nanovla*"]
+
+[tool.setuptools.package-data]
+"nanovla.data" = ["assets/*.json"]
