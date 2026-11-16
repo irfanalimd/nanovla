@@ -1,0 +1,4530 @@
+{
+ "repo_id": "HuggingFaceVLA/libero",
+ "revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+ "shards": [
+  {
+   "path": "data/chunk-000/file-000.parquet",
+   "num_rows": 843,
+   "index": [
+    0,
+    842
+   ],
+   "episode_index": [
+    0,
+    2
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-001.parquet",
+   "num_rows": 803,
+   "index": [
+    843,
+    1645
+   ],
+   "episode_index": [
+    3,
+    5
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-002.parquet",
+   "num_rows": 551,
+   "index": [
+    1646,
+    2196
+   ],
+   "episode_index": [
+    6,
+    7
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-003.parquet",
+   "num_rows": 561,
+   "index": [
+    2197,
+    2757
+   ],
+   "episode_index": [
+    8,
+    9
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-004.parquet",
+   "num_rows": 601,
+   "index": [
+    2758,
+    3358
+   ],
+   "episode_index": [
+    10,
+    11
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-005.parquet",
+   "num_rows": 564,
+   "index": [
+    3359,
+    3922
+   ],
+   "episode_index": [
+    12,
+    13
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-006.parquet",
+   "num_rows": 747,
+   "index": [
+    3923,
+    4669
+   ],
+   "episode_index": [
+    14,
+    16
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-007.parquet",
+   "num_rows": 774,
+   "index": [
+    4670,
+    5443
+   ],
+   "episode_index": [
+    17,
+    19
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-008.parquet",
+   "num_rows": 623,
+   "index": [
+    5444,
+    6066
+   ],
+   "episode_index": [
+    20,
+    21
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-009.parquet",
+   "num_rows": 718,
+   "index": [
+    6067,
+    6784
+   ],
+   "episode_index": [
+    22,
+    23
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-010.parquet",
+   "num_rows": 496,
+   "index": [
+    6785,
+    7280
+   ],
+   "episode_index": [
+    24,
+    25
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-011.parquet",
+   "num_rows": 725,
+   "index": [
+    7281,
+    8005
+   ],
+   "episode_index": [
+    26,
+    28
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-012.parquet",
+   "num_rows": 572,
+   "index": [
+    8006,
+    8577
+   ],
+   "episode_index": [
+    29,
+    30
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-013.parquet",
+   "num_rows": 729,
+   "index": [
+    8578,
+    9306
+   ],
+   "episode_index": [
+    31,
+    33
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-014.parquet",
+   "num_rows": 802,
+   "index": [
+    9307,
+    10108
+   ],
+   "episode_index": [
+    34,
+    35
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-015.parquet",
+   "num_rows": 747,
+   "index": [
+    10109,
+    10855
+   ],
+   "episode_index": [
+    36,
+    38
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-016.parquet",
+   "num_rows": 752,
+   "index": [
+    10856,
+    11607
+   ],
+   "episode_index": [
+    39,
+    41
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-017.parquet",
+   "num_rows": 783,
+   "index": [
+    11608,
+    12390
+   ],
+   "episode_index": [
+    42,
+    44
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-018.parquet",
+   "num_rows": 858,
+   "index": [
+    12391,
+    13248
+   ],
+   "episode_index": [
+    45,
+    47
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-019.parquet",
+   "num_rows": 586,
+   "index": [
+    13249,
+    13834
+   ],
+   "episode_index": [
+    48,
+    49
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-020.parquet",
+   "num_rows": 694,
+   "index": [
+    13835,
+    14528
+   ],
+   "episode_index": [
+    50,
+    51
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-021.parquet",
+   "num_rows": 479,
+   "index": [
+    14529,
+    15007
+   ],
+   "episode_index": [
+    52,
+    53
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-022.parquet",
+   "num_rows": 579,
+   "index": [
+    15008,
+    15586
+   ],
+   "episode_index": [
+    54,
+    55
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-023.parquet",
+   "num_rows": 678,
+   "index": [
+    15587,
+    16264
+   ],
+   "episode_index": [
+    56,
+    57
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-024.parquet",
+   "num_rows": 727,
+   "index": [
+    16265,
+    16991
+   ],
+   "episode_index": [
+    58,
+    60
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-025.parquet",
+   "num_rows": 679,
+   "index": [
+    16992,
+    17670
+   ],
+   "episode_index": [
+    61,
+    63
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-026.parquet",
+   "num_rows": 692,
+   "index": [
+    17671,
+    18362
+   ],
+   "episode_index": [
+    64,
+    66
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-027.parquet",
+   "num_rows": 677,
+   "index": [
+    18363,
+    19039
+   ],
+   "episode_index": [
+    67,
+    68
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-028.parquet",
+   "num_rows": 708,
+   "index": [
+    19040,
+    19747
+   ],
+   "episode_index": [
+    69,
+    70
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-029.parquet",
+   "num_rows": 583,
+   "index": [
+    19748,
+    20330
+   ],
+   "episode_index": [
+    71,
+    72
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-030.parquet",
+   "num_rows": 714,
+   "index": [
+    20331,
+    21044
+   ],
+   "episode_index": [
+    73,
+    74
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-031.parquet",
+   "num_rows": 518,
+   "index": [
+    21045,
+    21562
+   ],
+   "episode_index": [
+    75,
+    76
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-032.parquet",
+   "num_rows": 571,
+   "index": [
+    21563,
+    22133
+   ],
+   "episode_index": [
+    77,
+    78
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-033.parquet",
+   "num_rows": 687,
+   "index": [
+    22134,
+    22820
+   ],
+   "episode_index": [
+    79,
+    81
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-034.parquet",
+   "num_rows": 829,
+   "index": [
+    22821,
+    23649
+   ],
+   "episode_index": [
+    82,
+    84
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-035.parquet",
+   "num_rows": 713,
+   "index": [
+    23650,
+    24362
+   ],
+   "episode_index": [
+    85,
+    86
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-036.parquet",
+   "num_rows": 761,
+   "index": [
+    24363,
+    25123
+   ],
+   "episode_index": [
+    87,
+    89
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-037.parquet",
+   "num_rows": 761,
+   "index": [
+    25124,
+    25884
+   ],
+   "episode_index": [
+    90,
+    92
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-038.parquet",
+   "num_rows": 734,
+   "index": [
+    25885,
+    26618
+   ],
+   "episode_index": [
+    93,
+    95
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-039.parquet",
+   "num_rows": 529,
+   "index": [
+    26619,
+    27147
+   ],
+   "episode_index": [
+    96,
+    97
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-040.parquet",
+   "num_rows": 573,
+   "index": [
+    27148,
+    27720
+   ],
+   "episode_index": [
+    98,
+    99
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-041.parquet",
+   "num_rows": 670,
+   "index": [
+    27721,
+    28390
+   ],
+   "episode_index": [
+    100,
+    101
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-042.parquet",
+   "num_rows": 690,
+   "index": [
+    28391,
+    29080
+   ],
+   "episode_index": [
+    102,
+    104
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-043.parquet",
+   "num_rows": 673,
+   "index": [
+    29081,
+    29753
+   ],
+   "episode_index": [
+    105,
+    106
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-044.parquet",
+   "num_rows": 646,
+   "index": [
+    29754,
+    30399
+   ],
+   "episode_index": [
+    107,
+    109
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-045.parquet",
+   "num_rows": 711,
+   "index": [
+    30400,
+    31110
+   ],
+   "episode_index": [
+    110,
+    112
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-046.parquet",
+   "num_rows": 513,
+   "index": [
+    31111,
+    31623
+   ],
+   "episode_index": [
+    113,
+    114
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-047.parquet",
+   "num_rows": 635,
+   "index": [
+    31624,
+    32258
+   ],
+   "episode_index": [
+    115,
+    116
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-048.parquet",
+   "num_rows": 526,
+   "index": [
+    32259,
+    32784
+   ],
+   "episode_index": [
+    117,
+    118
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-049.parquet",
+   "num_rows": 775,
+   "index": [
+    32785,
+    33559
+   ],
+   "episode_index": [
+    119,
+    121
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-050.parquet",
+   "num_rows": 812,
+   "index": [
+    33560,
+    34371
+   ],
+   "episode_index": [
+    122,
+    124
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-051.parquet",
+   "num_rows": 725,
+   "index": [
+    34372,
+    35096
+   ],
+   "episode_index": [
+    125,
+    127
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-052.parquet",
+   "num_rows": 732,
+   "index": [
+    35097,
+    35828
+   ],
+   "episode_index": [
+    128,
+    130
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-053.parquet",
+   "num_rows": 730,
+   "index": [
+    35829,
+    36558
+   ],
+   "episode_index": [
+    131,
+    133
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-054.parquet",
+   "num_rows": 684,
+   "index": [
+    36559,
+    37242
+   ],
+   "episode_index": [
+    134,
+    136
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-055.parquet",
+   "num_rows": 823,
+   "index": [
+    37243,
+    38065
+   ],
+   "episode_index": [
+    137,
+    139
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-056.parquet",
+   "num_rows": 785,
+   "index": [
+    38066,
+    38850
+   ],
+   "episode_index": [
+    140,
+    142
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-057.parquet",
+   "num_rows": 703,
+   "index": [
+    38851,
+    39553
+   ],
+   "episode_index": [
+    143,
+    144
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-058.parquet",
+   "num_rows": 732,
+   "index": [
+    39554,
+    40285
+   ],
+   "episode_index": [
+    145,
+    147
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-059.parquet",
+   "num_rows": 662,
+   "index": [
+    40286,
+    40947
+   ],
+   "episode_index": [
+    148,
+    149
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-060.parquet",
+   "num_rows": 741,
+   "index": [
+    40948,
+    41688
+   ],
+   "episode_index": [
+    150,
+    152
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-061.parquet",
+   "num_rows": 766,
+   "index": [
+    41689,
+    42454
+   ],
+   "episode_index": [
+    153,
+    155
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-062.parquet",
+   "num_rows": 690,
+   "index": [
+    42455,
+    43144
+   ],
+   "episode_index": [
+    156,
+    158
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-063.parquet",
+   "num_rows": 746,
+   "index": [
+    43145,
+    43890
+   ],
+   "episode_index": [
+    159,
+    161
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-064.parquet",
+   "num_rows": 823,
+   "index": [
+    43891,
+    44713
+   ],
+   "episode_index": [
+    162,
+    164
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-065.parquet",
+   "num_rows": 577,
+   "index": [
+    44714,
+    45290
+   ],
+   "episode_index": [
+    165,
+    166
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-066.parquet",
+   "num_rows": 738,
+   "index": [
+    45291,
+    46028
+   ],
+   "episode_index": [
+    167,
+    169
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-067.parquet",
+   "num_rows": 538,
+   "index": [
+    46029,
+    46566
+   ],
+   "episode_index": [
+    170,
+    171
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-068.parquet",
+   "num_rows": 802,
+   "index": [
+    46567,
+    47368
+   ],
+   "episode_index": [
+    172,
+    174
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-069.parquet",
+   "num_rows": 754,
+   "index": [
+    47369,
+    48122
+   ],
+   "episode_index": [
+    175,
+    177
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-070.parquet",
+   "num_rows": 869,
+   "index": [
+    48123,
+    48991
+   ],
+   "episode_index": [
+    178,
+    180
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-071.parquet",
+   "num_rows": 546,
+   "index": [
+    48992,
+    49537
+   ],
+   "episode_index": [
+    181,
+    182
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-072.parquet",
+   "num_rows": 811,
+   "index": [
+    49538,
+    50348
+   ],
+   "episode_index": [
+    183,
+    185
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-073.parquet",
+   "num_rows": 705,
+   "index": [
+    50349,
+    51053
+   ],
+   "episode_index": [
+    186,
+    187
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-074.parquet",
+   "num_rows": 755,
+   "index": [
+    51054,
+    51808
+   ],
+   "episode_index": [
+    188,
+    190
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-075.parquet",
+   "num_rows": 660,
+   "index": [
+    51809,
+    52468
+   ],
+   "episode_index": [
+    191,
+    193
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-076.parquet",
+   "num_rows": 747,
+   "index": [
+    52469,
+    53215
+   ],
+   "episode_index": [
+    194,
+    195
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-077.parquet",
+   "num_rows": 570,
+   "index": [
+    53216,
+    53785
+   ],
+   "episode_index": [
+    196,
+    197
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-078.parquet",
+   "num_rows": 485,
+   "index": [
+    53786,
+    54270
+   ],
+   "episode_index": [
+    198,
+    199
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-079.parquet",
+   "num_rows": 586,
+   "index": [
+    54271,
+    54856
+   ],
+   "episode_index": [
+    200,
+    201
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-080.parquet",
+   "num_rows": 873,
+   "index": [
+    54857,
+    55729
+   ],
+   "episode_index": [
+    202,
+    204
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-081.parquet",
+   "num_rows": 722,
+   "index": [
+    55730,
+    56451
+   ],
+   "episode_index": [
+    205,
+    207
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-082.parquet",
+   "num_rows": 705,
+   "index": [
+    56452,
+    57156
+   ],
+   "episode_index": [
+    208,
+    210
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-083.parquet",
+   "num_rows": 681,
+   "index": [
+    57157,
+    57837
+   ],
+   "episode_index": [
+    211,
+    213
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-084.parquet",
+   "num_rows": 635,
+   "index": [
+    57838,
+    58472
+   ],
+   "episode_index": [
+    214,
+    215
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-085.parquet",
+   "num_rows": 748,
+   "index": [
+    58473,
+    59220
+   ],
+   "episode_index": [
+    216,
+    218
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-086.parquet",
+   "num_rows": 542,
+   "index": [
+    59221,
+    59762
+   ],
+   "episode_index": [
+    219,
+    220
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-087.parquet",
+   "num_rows": 744,
+   "index": [
+    59763,
+    60506
+   ],
+   "episode_index": [
+    221,
+    223
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-088.parquet",
+   "num_rows": 740,
+   "index": [
+    60507,
+    61246
+   ],
+   "episode_index": [
+    224,
+    226
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-089.parquet",
+   "num_rows": 828,
+   "index": [
+    61247,
+    62074
+   ],
+   "episode_index": [
+    227,
+    230
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-090.parquet",
+   "num_rows": 803,
+   "index": [
+    62075,
+    62877
+   ],
+   "episode_index": [
+    231,
+    233
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-091.parquet",
+   "num_rows": 781,
+   "index": [
+    62878,
+    63658
+   ],
+   "episode_index": [
+    234,
+    236
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-092.parquet",
+   "num_rows": 604,
+   "index": [
+    63659,
+    64262
+   ],
+   "episode_index": [
+    237,
+    238
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-093.parquet",
+   "num_rows": 612,
+   "index": [
+    64263,
+    64874
+   ],
+   "episode_index": [
+    239,
+    240
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-094.parquet",
+   "num_rows": 489,
+   "index": [
+    64875,
+    65363
+   ],
+   "episode_index": [
+    241,
+    242
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-095.parquet",
+   "num_rows": 803,
+   "index": [
+    65364,
+    66166
+   ],
+   "episode_index": [
+    243,
+    245
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-096.parquet",
+   "num_rows": 762,
+   "index": [
+    66167,
+    66928
+   ],
+   "episode_index": [
+    246,
+    248
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-097.parquet",
+   "num_rows": 728,
+   "index": [
+    66929,
+    67656
+   ],
+   "episode_index": [
+    249,
+    251
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-098.parquet",
+   "num_rows": 734,
+   "index": [
+    67657,
+    68390
+   ],
+   "episode_index": [
+    252,
+    254
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-099.parquet",
+   "num_rows": 579,
+   "index": [
+    68391,
+    68969
+   ],
+   "episode_index": [
+    255,
+    256
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-100.parquet",
+   "num_rows": 698,
+   "index": [
+    68970,
+    69667
+   ],
+   "episode_index": [
+    257,
+    259
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-101.parquet",
+   "num_rows": 564,
+   "index": [
+    69668,
+    70231
+   ],
+   "episode_index": [
+    260,
+    261
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-102.parquet",
+   "num_rows": 821,
+   "index": [
+    70232,
+    71052
+   ],
+   "episode_index": [
+    262,
+    264
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-103.parquet",
+   "num_rows": 724,
+   "index": [
+    71053,
+    71776
+   ],
+   "episode_index": [
+    265,
+    267
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-104.parquet",
+   "num_rows": 498,
+   "index": [
+    71777,
+    72274
+   ],
+   "episode_index": [
+    268,
+    269
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-105.parquet",
+   "num_rows": 738,
+   "index": [
+    72275,
+    73012
+   ],
+   "episode_index": [
+    270,
+    271
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-106.parquet",
+   "num_rows": 594,
+   "index": [
+    73013,
+    73606
+   ],
+   "episode_index": [
+    272,
+    273
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-107.parquet",
+   "num_rows": 786,
+   "index": [
+    73607,
+    74392
+   ],
+   "episode_index": [
+    274,
+    276
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-108.parquet",
+   "num_rows": 661,
+   "index": [
+    74393,
+    75053
+   ],
+   "episode_index": [
+    277,
+    279
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-109.parquet",
+   "num_rows": 788,
+   "index": [
+    75054,
+    75841
+   ],
+   "episode_index": [
+    280,
+    282
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-110.parquet",
+   "num_rows": 680,
+   "index": [
+    75842,
+    76521
+   ],
+   "episode_index": [
+    283,
+    284
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-111.parquet",
+   "num_rows": 790,
+   "index": [
+    76522,
+    77311
+   ],
+   "episode_index": [
+    285,
+    287
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-112.parquet",
+   "num_rows": 737,
+   "index": [
+    77312,
+    78048
+   ],
+   "episode_index": [
+    288,
+    290
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-113.parquet",
+   "num_rows": 557,
+   "index": [
+    78049,
+    78605
+   ],
+   "episode_index": [
+    291,
+    292
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-114.parquet",
+   "num_rows": 546,
+   "index": [
+    78606,
+    79151
+   ],
+   "episode_index": [
+    293,
+    294
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-115.parquet",
+   "num_rows": 761,
+   "index": [
+    79152,
+    79912
+   ],
+   "episode_index": [
+    295,
+    297
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-116.parquet",
+   "num_rows": 832,
+   "index": [
+    79913,
+    80744
+   ],
+   "episode_index": [
+    298,
+    301
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-117.parquet",
+   "num_rows": 802,
+   "index": [
+    80745,
+    81546
+   ],
+   "episode_index": [
+    302,
+    304
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-118.parquet",
+   "num_rows": 748,
+   "index": [
+    81547,
+    82294
+   ],
+   "episode_index": [
+    305,
+    306
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-119.parquet",
+   "num_rows": 666,
+   "index": [
+    82295,
+    82960
+   ],
+   "episode_index": [
+    307,
+    308
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-120.parquet",
+   "num_rows": 707,
+   "index": [
+    82961,
+    83667
+   ],
+   "episode_index": [
+    309,
+    311
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-121.parquet",
+   "num_rows": 832,
+   "index": [
+    83668,
+    84499
+   ],
+   "episode_index": [
+    312,
+    314
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-122.parquet",
+   "num_rows": 629,
+   "index": [
+    84500,
+    85128
+   ],
+   "episode_index": [
+    315,
+    316
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-123.parquet",
+   "num_rows": 590,
+   "index": [
+    85129,
+    85718
+   ],
+   "episode_index": [
+    317,
+    318
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-124.parquet",
+   "num_rows": 721,
+   "index": [
+    85719,
+    86439
+   ],
+   "episode_index": [
+    319,
+    321
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-125.parquet",
+   "num_rows": 813,
+   "index": [
+    86440,
+    87252
+   ],
+   "episode_index": [
+    322,
+    324
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-126.parquet",
+   "num_rows": 744,
+   "index": [
+    87253,
+    87996
+   ],
+   "episode_index": [
+    325,
+    327
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-127.parquet",
+   "num_rows": 523,
+   "index": [
+    87997,
+    88519
+   ],
+   "episode_index": [
+    328,
+    329
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-128.parquet",
+   "num_rows": 522,
+   "index": [
+    88520,
+    89041
+   ],
+   "episode_index": [
+    330,
+    331
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-129.parquet",
+   "num_rows": 484,
+   "index": [
+    89042,
+    89525
+   ],
+   "episode_index": [
+    332,
+    333
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-130.parquet",
+   "num_rows": 553,
+   "index": [
+    89526,
+    90078
+   ],
+   "episode_index": [
+    334,
+    335
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-131.parquet",
+   "num_rows": 724,
+   "index": [
+    90079,
+    90802
+   ],
+   "episode_index": [
+    336,
+    338
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-132.parquet",
+   "num_rows": 655,
+   "index": [
+    90803,
+    91457
+   ],
+   "episode_index": [
+    339,
+    340
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-133.parquet",
+   "num_rows": 804,
+   "index": [
+    91458,
+    92261
+   ],
+   "episode_index": [
+    341,
+    342
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-134.parquet",
+   "num_rows": 791,
+   "index": [
+    92262,
+    93052
+   ],
+   "episode_index": [
+    343,
+    345
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-135.parquet",
+   "num_rows": 765,
+   "index": [
+    93053,
+    93817
+   ],
+   "episode_index": [
+    346,
+    348
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-136.parquet",
+   "num_rows": 719,
+   "index": [
+    93818,
+    94536
+   ],
+   "episode_index": [
+    349,
+    351
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-137.parquet",
+   "num_rows": 765,
+   "index": [
+    94537,
+    95301
+   ],
+   "episode_index": [
+    352,
+    354
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-138.parquet",
+   "num_rows": 835,
+   "index": [
+    95302,
+    96136
+   ],
+   "episode_index": [
+    355,
+    357
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-139.parquet",
+   "num_rows": 592,
+   "index": [
+    96137,
+    96728
+   ],
+   "episode_index": [
+    358,
+    359
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-140.parquet",
+   "num_rows": 807,
+   "index": [
+    96729,
+    97535
+   ],
+   "episode_index": [
+    360,
+    362
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-141.parquet",
+   "num_rows": 716,
+   "index": [
+    97536,
+    98251
+   ],
+   "episode_index": [
+    363,
+    365
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-142.parquet",
+   "num_rows": 781,
+   "index": [
+    98252,
+    99032
+   ],
+   "episode_index": [
+    366,
+    369
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-143.parquet",
+   "num_rows": 757,
+   "index": [
+    99033,
+    99789
+   ],
+   "episode_index": [
+    370,
+    372
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-144.parquet",
+   "num_rows": 740,
+   "index": [
+    99790,
+    100529
+   ],
+   "episode_index": [
+    373,
+    375
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-145.parquet",
+   "num_rows": 687,
+   "index": [
+    100530,
+    101216
+   ],
+   "episode_index": [
+    376,
+    377
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-146.parquet",
+   "num_rows": 669,
+   "index": [
+    101217,
+    101885
+   ],
+   "episode_index": [
+    378,
+    381
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-147.parquet",
+   "num_rows": 720,
+   "index": [
+    101886,
+    102605
+   ],
+   "episode_index": [
+    382,
+    386
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-148.parquet",
+   "num_rows": 793,
+   "index": [
+    102606,
+    103398
+   ],
+   "episode_index": [
+    387,
+    392
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-149.parquet",
+   "num_rows": 757,
+   "index": [
+    103399,
+    104155
+   ],
+   "episode_index": [
+    393,
+    399
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-150.parquet",
+   "num_rows": 783,
+   "index": [
+    104156,
+    104938
+   ],
+   "episode_index": [
+    400,
+    405
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-151.parquet",
+   "num_rows": 754,
+   "index": [
+    104939,
+    105692
+   ],
+   "episode_index": [
+    406,
+    410
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-152.parquet",
+   "num_rows": 715,
+   "index": [
+    105693,
+    106407
+   ],
+   "episode_index": [
+    411,
+    415
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-153.parquet",
+   "num_rows": 853,
+   "index": [
+    106408,
+    107260
+   ],
+   "episode_index": [
+    416,
+    422
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-154.parquet",
+   "num_rows": 705,
+   "index": [
+    107261,
+    107965
+   ],
+   "episode_index": [
+    423,
+    428
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-155.parquet",
+   "num_rows": 804,
+   "index": [
+    107966,
+    108769
+   ],
+   "episode_index": [
+    429,
+    435
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-156.parquet",
+   "num_rows": 876,
+   "index": [
+    108770,
+    109645
+   ],
+   "episode_index": [
+    436,
+    443
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-157.parquet",
+   "num_rows": 818,
+   "index": [
+    109646,
+    110463
+   ],
+   "episode_index": [
+    444,
+    450
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-158.parquet",
+   "num_rows": 773,
+   "index": [
+    110464,
+    111236
+   ],
+   "episode_index": [
+    451,
+    458
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-159.parquet",
+   "num_rows": 741,
+   "index": [
+    111237,
+    111977
+   ],
+   "episode_index": [
+    459,
+    464
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-160.parquet",
+   "num_rows": 826,
+   "index": [
+    111978,
+    112803
+   ],
+   "episode_index": [
+    465,
+    470
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-161.parquet",
+   "num_rows": 807,
+   "index": [
+    112804,
+    113610
+   ],
+   "episode_index": [
+    471,
+    477
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-162.parquet",
+   "num_rows": 768,
+   "index": [
+    113611,
+    114378
+   ],
+   "episode_index": [
+    478,
+    484
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-163.parquet",
+   "num_rows": 787,
+   "index": [
+    114379,
+    115165
+   ],
+   "episode_index": [
+    485,
+    490
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-164.parquet",
+   "num_rows": 826,
+   "index": [
+    115166,
+    115991
+   ],
+   "episode_index": [
+    491,
+    497
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-165.parquet",
+   "num_rows": 845,
+   "index": [
+    115992,
+    116836
+   ],
+   "episode_index": [
+    498,
+    503
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-166.parquet",
+   "num_rows": 789,
+   "index": [
+    116837,
+    117625
+   ],
+   "episode_index": [
+    504,
+    510
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-167.parquet",
+   "num_rows": 826,
+   "index": [
+    117626,
+    118451
+   ],
+   "episode_index": [
+    511,
+    517
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-168.parquet",
+   "num_rows": 865,
+   "index": [
+    118452,
+    119316
+   ],
+   "episode_index": [
+    518,
+    524
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-169.parquet",
+   "num_rows": 810,
+   "index": [
+    119317,
+    120126
+   ],
+   "episode_index": [
+    525,
+    531
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-170.parquet",
+   "num_rows": 820,
+   "index": [
+    120127,
+    120946
+   ],
+   "episode_index": [
+    532,
+    537
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-171.parquet",
+   "num_rows": 853,
+   "index": [
+    120947,
+    121799
+   ],
+   "episode_index": [
+    538,
+    542
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-172.parquet",
+   "num_rows": 848,
+   "index": [
+    121800,
+    122647
+   ],
+   "episode_index": [
+    543,
+    549
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-173.parquet",
+   "num_rows": 813,
+   "index": [
+    122648,
+    123460
+   ],
+   "episode_index": [
+    550,
+    556
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-174.parquet",
+   "num_rows": 856,
+   "index": [
+    123461,
+    124316
+   ],
+   "episode_index": [
+    557,
+    562
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-175.parquet",
+   "num_rows": 781,
+   "index": [
+    124317,
+    125097
+   ],
+   "episode_index": [
+    563,
+    570
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-176.parquet",
+   "num_rows": 830,
+   "index": [
+    125098,
+    125927
+   ],
+   "episode_index": [
+    571,
+    577
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-177.parquet",
+   "num_rows": 835,
+   "index": [
+    125928,
+    126762
+   ],
+   "episode_index": [
+    578,
+    584
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-178.parquet",
+   "num_rows": 835,
+   "index": [
+    126763,
+    127597
+   ],
+   "episode_index": [
+    585,
+    591
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-179.parquet",
+   "num_rows": 805,
+   "index": [
+    127598,
+    128402
+   ],
+   "episode_index": [
+    592,
+    597
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-180.parquet",
+   "num_rows": 838,
+   "index": [
+    128403,
+    129240
+   ],
+   "episode_index": [
+    598,
+    604
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-181.parquet",
+   "num_rows": 844,
+   "index": [
+    129241,
+    130084
+   ],
+   "episode_index": [
+    605,
+    612
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-182.parquet",
+   "num_rows": 819,
+   "index": [
+    130085,
+    130903
+   ],
+   "episode_index": [
+    613,
+    620
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-183.parquet",
+   "num_rows": 781,
+   "index": [
+    130904,
+    131684
+   ],
+   "episode_index": [
+    621,
+    626
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-184.parquet",
+   "num_rows": 747,
+   "index": [
+    131685,
+    132431
+   ],
+   "episode_index": [
+    627,
+    632
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-185.parquet",
+   "num_rows": 767,
+   "index": [
+    132432,
+    133198
+   ],
+   "episode_index": [
+    633,
+    639
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-186.parquet",
+   "num_rows": 817,
+   "index": [
+    133199,
+    134015
+   ],
+   "episode_index": [
+    640,
+    647
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-187.parquet",
+   "num_rows": 835,
+   "index": [
+    134016,
+    134850
+   ],
+   "episode_index": [
+    648,
+    653
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-188.parquet",
+   "num_rows": 784,
+   "index": [
+    134851,
+    135634
+   ],
+   "episode_index": [
+    654,
+    661
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-189.parquet",
+   "num_rows": 635,
+   "index": [
+    135635,
+    136269
+   ],
+   "episode_index": [
+    662,
+    666
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-190.parquet",
+   "num_rows": 696,
+   "index": [
+    136270,
+    136965
+   ],
+   "episode_index": [
+    667,
+    671
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-191.parquet",
+   "num_rows": 847,
+   "index": [
+    136966,
+    137812
+   ],
+   "episode_index": [
+    672,
+    677
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-192.parquet",
+   "num_rows": 739,
+   "index": [
+    137813,
+    138551
+   ],
+   "episode_index": [
+    678,
+    683
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-193.parquet",
+   "num_rows": 783,
+   "index": [
+    138552,
+    139334
+   ],
+   "episode_index": [
+    684,
+    689
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-194.parquet",
+   "num_rows": 802,
+   "index": [
+    139335,
+    140136
+   ],
+   "episode_index": [
+    690,
+    695
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-195.parquet",
+   "num_rows": 816,
+   "index": [
+    140137,
+    140952
+   ],
+   "episode_index": [
+    696,
+    702
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-196.parquet",
+   "num_rows": 754,
+   "index": [
+    140953,
+    141706
+   ],
+   "episode_index": [
+    703,
+    709
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-197.parquet",
+   "num_rows": 876,
+   "index": [
+    141707,
+    142582
+   ],
+   "episode_index": [
+    710,
+    715
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-198.parquet",
+   "num_rows": 790,
+   "index": [
+    142583,
+    143372
+   ],
+   "episode_index": [
+    716,
+    722
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-199.parquet",
+   "num_rows": 774,
+   "index": [
+    143373,
+    144146
+   ],
+   "episode_index": [
+    723,
+    730
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-200.parquet",
+   "num_rows": 733,
+   "index": [
+    144147,
+    144879
+   ],
+   "episode_index": [
+    731,
+    736
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-201.parquet",
+   "num_rows": 797,
+   "index": [
+    144880,
+    145676
+   ],
+   "episode_index": [
+    737,
+    741
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-202.parquet",
+   "num_rows": 812,
+   "index": [
+    145677,
+    146488
+   ],
+   "episode_index": [
+    742,
+    748
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-203.parquet",
+   "num_rows": 823,
+   "index": [
+    146489,
+    147311
+   ],
+   "episode_index": [
+    749,
+    755
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-204.parquet",
+   "num_rows": 844,
+   "index": [
+    147312,
+    148155
+   ],
+   "episode_index": [
+    756,
+    761
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-205.parquet",
+   "num_rows": 847,
+   "index": [
+    148156,
+    149002
+   ],
+   "episode_index": [
+    762,
+    768
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-206.parquet",
+   "num_rows": 828,
+   "index": [
+    149003,
+    149830
+   ],
+   "episode_index": [
+    769,
+    775
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-207.parquet",
+   "num_rows": 717,
+   "index": [
+    149831,
+    150547
+   ],
+   "episode_index": [
+    776,
+    781
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-208.parquet",
+   "num_rows": 815,
+   "index": [
+    150548,
+    151362
+   ],
+   "episode_index": [
+    782,
+    787
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-209.parquet",
+   "num_rows": 745,
+   "index": [
+    151363,
+    152107
+   ],
+   "episode_index": [
+    788,
+    793
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-210.parquet",
+   "num_rows": 777,
+   "index": [
+    152108,
+    152884
+   ],
+   "episode_index": [
+    794,
+    800
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-211.parquet",
+   "num_rows": 769,
+   "index": [
+    152885,
+    153653
+   ],
+   "episode_index": [
+    801,
+    807
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-212.parquet",
+   "num_rows": 683,
+   "index": [
+    153654,
+    154336
+   ],
+   "episode_index": [
+    808,
+    812
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-213.parquet",
+   "num_rows": 749,
+   "index": [
+    154337,
+    155085
+   ],
+   "episode_index": [
+    813,
+    817
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-214.parquet",
+   "num_rows": 714,
+   "index": [
+    155086,
+    155799
+   ],
+   "episode_index": [
+    818,
+    822
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-215.parquet",
+   "num_rows": 637,
+   "index": [
+    155800,
+    156436
+   ],
+   "episode_index": [
+    823,
+    826
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-216.parquet",
+   "num_rows": 715,
+   "index": [
+    156437,
+    157151
+   ],
+   "episode_index": [
+    827,
+    831
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-217.parquet",
+   "num_rows": 697,
+   "index": [
+    157152,
+    157848
+   ],
+   "episode_index": [
+    832,
+    836
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-218.parquet",
+   "num_rows": 562,
+   "index": [
+    157849,
+    158410
+   ],
+   "episode_index": [
+    837,
+    840
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-219.parquet",
+   "num_rows": 671,
+   "index": [
+    158411,
+    159081
+   ],
+   "episode_index": [
+    841,
+    844
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-220.parquet",
+   "num_rows": 741,
+   "index": [
+    159082,
+    159822
+   ],
+   "episode_index": [
+    845,
+    849
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-221.parquet",
+   "num_rows": 715,
+   "index": [
+    159823,
+    160537
+   ],
+   "episode_index": [
+    850,
+    854
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-222.parquet",
+   "num_rows": 731,
+   "index": [
+    160538,
+    161268
+   ],
+   "episode_index": [
+    855,
+    859
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-223.parquet",
+   "num_rows": 743,
+   "index": [
+    161269,
+    162011
+   ],
+   "episode_index": [
+    860,
+    864
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-224.parquet",
+   "num_rows": 655,
+   "index": [
+    162012,
+    162666
+   ],
+   "episode_index": [
+    865,
+    868
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-225.parquet",
+   "num_rows": 723,
+   "index": [
+    162667,
+    163389
+   ],
+   "episode_index": [
+    869,
+    873
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-226.parquet",
+   "num_rows": 627,
+   "index": [
+    163390,
+    164016
+   ],
+   "episode_index": [
+    874,
+    877
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-227.parquet",
+   "num_rows": 702,
+   "index": [
+    164017,
+    164718
+   ],
+   "episode_index": [
+    878,
+    882
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-228.parquet",
+   "num_rows": 627,
+   "index": [
+    164719,
+    165345
+   ],
+   "episode_index": [
+    883,
+    886
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-229.parquet",
+   "num_rows": 680,
+   "index": [
+    165346,
+    166025
+   ],
+   "episode_index": [
+    887,
+    891
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-230.parquet",
+   "num_rows": 752,
+   "index": [
+    166026,
+    166777
+   ],
+   "episode_index": [
+    892,
+    896
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-231.parquet",
+   "num_rows": 659,
+   "index": [
+    166778,
+    167436
+   ],
+   "episode_index": [
+    897,
+    901
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-232.parquet",
+   "num_rows": 684,
+   "index": [
+    167437,
+    168120
+   ],
+   "episode_index": [
+    902,
+    906
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-233.parquet",
+   "num_rows": 639,
+   "index": [
+    168121,
+    168759
+   ],
+   "episode_index": [
+    907,
+    910
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-234.parquet",
+   "num_rows": 716,
+   "index": [
+    168760,
+    169475
+   ],
+   "episode_index": [
+    911,
+    915
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-235.parquet",
+   "num_rows": 759,
+   "index": [
+    169476,
+    170234
+   ],
+   "episode_index": [
+    916,
+    920
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-236.parquet",
+   "num_rows": 641,
+   "index": [
+    170235,
+    170875
+   ],
+   "episode_index": [
+    921,
+    924
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-237.parquet",
+   "num_rows": 734,
+   "index": [
+    170876,
+    171609
+   ],
+   "episode_index": [
+    925,
+    929
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-238.parquet",
+   "num_rows": 720,
+   "index": [
+    171610,
+    172329
+   ],
+   "episode_index": [
+    930,
+    934
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-239.parquet",
+   "num_rows": 593,
+   "index": [
+    172330,
+    172922
+   ],
+   "episode_index": [
+    935,
+    938
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-240.parquet",
+   "num_rows": 761,
+   "index": [
+    172923,
+    173683
+   ],
+   "episode_index": [
+    939,
+    943
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-241.parquet",
+   "num_rows": 755,
+   "index": [
+    173684,
+    174438
+   ],
+   "episode_index": [
+    944,
+    948
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-242.parquet",
+   "num_rows": 741,
+   "index": [
+    174439,
+    175179
+   ],
+   "episode_index": [
+    949,
+    953
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-243.parquet",
+   "num_rows": 701,
+   "index": [
+    175180,
+    175880
+   ],
+   "episode_index": [
+    954,
+    958
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-244.parquet",
+   "num_rows": 717,
+   "index": [
+    175881,
+    176597
+   ],
+   "episode_index": [
+    959,
+    963
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-245.parquet",
+   "num_rows": 614,
+   "index": [
+    176598,
+    177211
+   ],
+   "episode_index": [
+    964,
+    967
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-246.parquet",
+   "num_rows": 746,
+   "index": [
+    177212,
+    177957
+   ],
+   "episode_index": [
+    968,
+    972
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-247.parquet",
+   "num_rows": 749,
+   "index": [
+    177958,
+    178706
+   ],
+   "episode_index": [
+    973,
+    977
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-248.parquet",
+   "num_rows": 726,
+   "index": [
+    178707,
+    179432
+   ],
+   "episode_index": [
+    978,
+    982
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-249.parquet",
+   "num_rows": 761,
+   "index": [
+    179433,
+    180193
+   ],
+   "episode_index": [
+    983,
+    987
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-250.parquet",
+   "num_rows": 731,
+   "index": [
+    180194,
+    180924
+   ],
+   "episode_index": [
+    988,
+    992
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-251.parquet",
+   "num_rows": 757,
+   "index": [
+    180925,
+    181681
+   ],
+   "episode_index": [
+    993,
+    997
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-252.parquet",
+   "num_rows": 585,
+   "index": [
+    181682,
+    182266
+   ],
+   "episode_index": [
+    998,
+    1001
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-253.parquet",
+   "num_rows": 619,
+   "index": [
+    182267,
+    182885
+   ],
+   "episode_index": [
+    1002,
+    1005
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-254.parquet",
+   "num_rows": 689,
+   "index": [
+    182886,
+    183574
+   ],
+   "episode_index": [
+    1006,
+    1010
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-255.parquet",
+   "num_rows": 769,
+   "index": [
+    183575,
+    184343
+   ],
+   "episode_index": [
+    1011,
+    1015
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-256.parquet",
+   "num_rows": 723,
+   "index": [
+    184344,
+    185066
+   ],
+   "episode_index": [
+    1016,
+    1020
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-257.parquet",
+   "num_rows": 765,
+   "index": [
+    185067,
+    185831
+   ],
+   "episode_index": [
+    1021,
+    1025
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-258.parquet",
+   "num_rows": 728,
+   "index": [
+    185832,
+    186559
+   ],
+   "episode_index": [
+    1026,
+    1030
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-259.parquet",
+   "num_rows": 734,
+   "index": [
+    186560,
+    187293
+   ],
+   "episode_index": [
+    1031,
+    1035
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-260.parquet",
+   "num_rows": 621,
+   "index": [
+    187294,
+    187914
+   ],
+   "episode_index": [
+    1036,
+    1039
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-261.parquet",
+   "num_rows": 657,
+   "index": [
+    187915,
+    188571
+   ],
+   "episode_index": [
+    1040,
+    1044
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-262.parquet",
+   "num_rows": 719,
+   "index": [
+    188572,
+    189290
+   ],
+   "episode_index": [
+    1045,
+    1049
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-263.parquet",
+   "num_rows": 652,
+   "index": [
+    189291,
+    189942
+   ],
+   "episode_index": [
+    1050,
+    1054
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-264.parquet",
+   "num_rows": 747,
+   "index": [
+    189943,
+    190689
+   ],
+   "episode_index": [
+    1055,
+    1059
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-265.parquet",
+   "num_rows": 740,
+   "index": [
+    190690,
+    191429
+   ],
+   "episode_index": [
+    1060,
+    1064
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-266.parquet",
+   "num_rows": 625,
+   "index": [
+    191430,
+    192054
+   ],
+   "episode_index": [
+    1065,
+    1068
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-267.parquet",
+   "num_rows": 628,
+   "index": [
+    192055,
+    192682
+   ],
+   "episode_index": [
+    1069,
+    1072
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-268.parquet",
+   "num_rows": 751,
+   "index": [
+    192683,
+    193433
+   ],
+   "episode_index": [
+    1073,
+    1077
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-269.parquet",
+   "num_rows": 721,
+   "index": [
+    193434,
+    194154
+   ],
+   "episode_index": [
+    1078,
+    1082
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-270.parquet",
+   "num_rows": 715,
+   "index": [
+    194155,
+    194869
+   ],
+   "episode_index": [
+    1083,
+    1087
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-271.parquet",
+   "num_rows": 659,
+   "index": [
+    194870,
+    195528
+   ],
+   "episode_index": [
+    1088,
+    1091
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-272.parquet",
+   "num_rows": 717,
+   "index": [
+    195529,
+    196245
+   ],
+   "episode_index": [
+    1092,
+    1096
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-273.parquet",
+   "num_rows": 630,
+   "index": [
+    196246,
+    196875
+   ],
+   "episode_index": [
+    1097,
+    1100
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-274.parquet",
+   "num_rows": 571,
+   "index": [
+    196876,
+    197446
+   ],
+   "episode_index": [
+    1101,
+    1104
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-275.parquet",
+   "num_rows": 628,
+   "index": [
+    197447,
+    198074
+   ],
+   "episode_index": [
+    1105,
+    1108
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-276.parquet",
+   "num_rows": 743,
+   "index": [
+    198075,
+    198817
+   ],
+   "episode_index": [
+    1109,
+    1113
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-277.parquet",
+   "num_rows": 725,
+   "index": [
+    198818,
+    199542
+   ],
+   "episode_index": [
+    1114,
+    1118
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-278.parquet",
+   "num_rows": 681,
+   "index": [
+    199543,
+    200223
+   ],
+   "episode_index": [
+    1119,
+    1122
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-279.parquet",
+   "num_rows": 744,
+   "index": [
+    200224,
+    200967
+   ],
+   "episode_index": [
+    1123,
+    1127
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-280.parquet",
+   "num_rows": 614,
+   "index": [
+    200968,
+    201581
+   ],
+   "episode_index": [
+    1128,
+    1131
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-281.parquet",
+   "num_rows": 709,
+   "index": [
+    201582,
+    202290
+   ],
+   "episode_index": [
+    1132,
+    1136
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-282.parquet",
+   "num_rows": 723,
+   "index": [
+    202291,
+    203013
+   ],
+   "episode_index": [
+    1137,
+    1141
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-283.parquet",
+   "num_rows": 632,
+   "index": [
+    203014,
+    203645
+   ],
+   "episode_index": [
+    1142,
+    1145
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-284.parquet",
+   "num_rows": 627,
+   "index": [
+    203646,
+    204272
+   ],
+   "episode_index": [
+    1146,
+    1149
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-285.parquet",
+   "num_rows": 762,
+   "index": [
+    204273,
+    205034
+   ],
+   "episode_index": [
+    1150,
+    1154
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-286.parquet",
+   "num_rows": 696,
+   "index": [
+    205035,
+    205730
+   ],
+   "episode_index": [
+    1155,
+    1159
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-287.parquet",
+   "num_rows": 701,
+   "index": [
+    205731,
+    206431
+   ],
+   "episode_index": [
+    1160,
+    1164
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-288.parquet",
+   "num_rows": 669,
+   "index": [
+    206432,
+    207100
+   ],
+   "episode_index": [
+    1165,
+    1169
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-289.parquet",
+   "num_rows": 693,
+   "index": [
+    207101,
+    207793
+   ],
+   "episode_index": [
+    1170,
+    1174
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-290.parquet",
+   "num_rows": 627,
+   "index": [
+    207794,
+    208420
+   ],
+   "episode_index": [
+    1175,
+    1178
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-291.parquet",
+   "num_rows": 689,
+   "index": [
+    208421,
+    209109
+   ],
+   "episode_index": [
+    1179,
+    1182
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-292.parquet",
+   "num_rows": 621,
+   "index": [
+    209110,
+    209730
+   ],
+   "episode_index": [
+    1183,
+    1186
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-293.parquet",
+   "num_rows": 686,
+   "index": [
+    209731,
+    210416
+   ],
+   "episode_index": [
+    1187,
+    1191
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-294.parquet",
+   "num_rows": 748,
+   "index": [
+    210417,
+    211164
+   ],
+   "episode_index": [
+    1192,
+    1196
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-295.parquet",
+   "num_rows": 728,
+   "index": [
+    211165,
+    211892
+   ],
+   "episode_index": [
+    1197,
+    1201
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-296.parquet",
+   "num_rows": 740,
+   "index": [
+    211893,
+    212632
+   ],
+   "episode_index": [
+    1202,
+    1206
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-297.parquet",
+   "num_rows": 731,
+   "index": [
+    212633,
+    213363
+   ],
+   "episode_index": [
+    1207,
+    1211
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-298.parquet",
+   "num_rows": 595,
+   "index": [
+    213364,
+    213958
+   ],
+   "episode_index": [
+    1212,
+    1215
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-299.parquet",
+   "num_rows": 615,
+   "index": [
+    213959,
+    214573
+   ],
+   "episode_index": [
+    1216,
+    1219
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-300.parquet",
+   "num_rows": 727,
+   "index": [
+    214574,
+    215300
+   ],
+   "episode_index": [
+    1220,
+    1224
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-301.parquet",
+   "num_rows": 713,
+   "index": [
+    215301,
+    216013
+   ],
+   "episode_index": [
+    1225,
+    1229
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-302.parquet",
+   "num_rows": 715,
+   "index": [
+    216014,
+    216728
+   ],
+   "episode_index": [
+    1230,
+    1234
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-303.parquet",
+   "num_rows": 746,
+   "index": [
+    216729,
+    217474
+   ],
+   "episode_index": [
+    1235,
+    1239
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-304.parquet",
+   "num_rows": 752,
+   "index": [
+    217475,
+    218226
+   ],
+   "episode_index": [
+    1240,
+    1244
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-305.parquet",
+   "num_rows": 719,
+   "index": [
+    218227,
+    218945
+   ],
+   "episode_index": [
+    1245,
+    1249
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-306.parquet",
+   "num_rows": 681,
+   "index": [
+    218946,
+    219626
+   ],
+   "episode_index": [
+    1250,
+    1254
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-307.parquet",
+   "num_rows": 716,
+   "index": [
+    219627,
+    220342
+   ],
+   "episode_index": [
+    1255,
+    1259
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-308.parquet",
+   "num_rows": 743,
+   "index": [
+    220343,
+    221085
+   ],
+   "episode_index": [
+    1260,
+    1265
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-309.parquet",
+   "num_rows": 832,
+   "index": [
+    221086,
+    221917
+   ],
+   "episode_index": [
+    1266,
+    1272
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-310.parquet",
+   "num_rows": 774,
+   "index": [
+    221918,
+    222691
+   ],
+   "episode_index": [
+    1273,
+    1279
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-311.parquet",
+   "num_rows": 712,
+   "index": [
+    222692,
+    223403
+   ],
+   "episode_index": [
+    1280,
+    1285
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-312.parquet",
+   "num_rows": 727,
+   "index": [
+    223404,
+    224130
+   ],
+   "episode_index": [
+    1286,
+    1291
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-313.parquet",
+   "num_rows": 786,
+   "index": [
+    224131,
+    224916
+   ],
+   "episode_index": [
+    1292,
+    1297
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-314.parquet",
+   "num_rows": 770,
+   "index": [
+    224917,
+    225686
+   ],
+   "episode_index": [
+    1298,
+    1303
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-315.parquet",
+   "num_rows": 783,
+   "index": [
+    225687,
+    226469
+   ],
+   "episode_index": [
+    1304,
+    1309
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-316.parquet",
+   "num_rows": 835,
+   "index": [
+    226470,
+    227304
+   ],
+   "episode_index": [
+    1310,
+    1316
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-317.parquet",
+   "num_rows": 830,
+   "index": [
+    227305,
+    228134
+   ],
+   "episode_index": [
+    1317,
+    1323
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-318.parquet",
+   "num_rows": 737,
+   "index": [
+    228135,
+    228871
+   ],
+   "episode_index": [
+    1324,
+    1329
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-319.parquet",
+   "num_rows": 835,
+   "index": [
+    228872,
+    229706
+   ],
+   "episode_index": [
+    1330,
+    1335
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-320.parquet",
+   "num_rows": 834,
+   "index": [
+    229707,
+    230540
+   ],
+   "episode_index": [
+    1336,
+    1341
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-321.parquet",
+   "num_rows": 784,
+   "index": [
+    230541,
+    231324
+   ],
+   "episode_index": [
+    1342,
+    1348
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-322.parquet",
+   "num_rows": 746,
+   "index": [
+    231325,
+    232070
+   ],
+   "episode_index": [
+    1349,
+    1354
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-323.parquet",
+   "num_rows": 746,
+   "index": [
+    232071,
+    232816
+   ],
+   "episode_index": [
+    1355,
+    1360
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-324.parquet",
+   "num_rows": 755,
+   "index": [
+    232817,
+    233571
+   ],
+   "episode_index": [
+    1361,
+    1365
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-325.parquet",
+   "num_rows": 793,
+   "index": [
+    233572,
+    234364
+   ],
+   "episode_index": [
+    1366,
+    1372
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-326.parquet",
+   "num_rows": 780,
+   "index": [
+    234365,
+    235144
+   ],
+   "episode_index": [
+    1373,
+    1378
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-327.parquet",
+   "num_rows": 782,
+   "index": [
+    235145,
+    235926
+   ],
+   "episode_index": [
+    1379,
+    1385
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-328.parquet",
+   "num_rows": 825,
+   "index": [
+    235927,
+    236751
+   ],
+   "episode_index": [
+    1386,
+    1392
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-329.parquet",
+   "num_rows": 706,
+   "index": [
+    236752,
+    237457
+   ],
+   "episode_index": [
+    1393,
+    1398
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-330.parquet",
+   "num_rows": 775,
+   "index": [
+    237458,
+    238232
+   ],
+   "episode_index": [
+    1399,
+    1404
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-331.parquet",
+   "num_rows": 822,
+   "index": [
+    238233,
+    239054
+   ],
+   "episode_index": [
+    1405,
+    1411
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-332.parquet",
+   "num_rows": 759,
+   "index": [
+    239055,
+    239813
+   ],
+   "episode_index": [
+    1412,
+    1417
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-333.parquet",
+   "num_rows": 827,
+   "index": [
+    239814,
+    240640
+   ],
+   "episode_index": [
+    1418,
+    1423
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-334.parquet",
+   "num_rows": 714,
+   "index": [
+    240641,
+    241354
+   ],
+   "episode_index": [
+    1424,
+    1429
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-335.parquet",
+   "num_rows": 710,
+   "index": [
+    241355,
+    242064
+   ],
+   "episode_index": [
+    1430,
+    1434
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-336.parquet",
+   "num_rows": 725,
+   "index": [
+    242065,
+    242789
+   ],
+   "episode_index": [
+    1435,
+    1440
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-337.parquet",
+   "num_rows": 756,
+   "index": [
+    242790,
+    243545
+   ],
+   "episode_index": [
+    1441,
+    1446
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-338.parquet",
+   "num_rows": 800,
+   "index": [
+    243546,
+    244345
+   ],
+   "episode_index": [
+    1447,
+    1453
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-339.parquet",
+   "num_rows": 852,
+   "index": [
+    244346,
+    245197
+   ],
+   "episode_index": [
+    1454,
+    1460
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-340.parquet",
+   "num_rows": 742,
+   "index": [
+    245198,
+    245939
+   ],
+   "episode_index": [
+    1461,
+    1466
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-341.parquet",
+   "num_rows": 841,
+   "index": [
+    245940,
+    246780
+   ],
+   "episode_index": [
+    1467,
+    1473
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-342.parquet",
+   "num_rows": 762,
+   "index": [
+    246781,
+    247542
+   ],
+   "episode_index": [
+    1474,
+    1479
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-343.parquet",
+   "num_rows": 749,
+   "index": [
+    247543,
+    248291
+   ],
+   "episode_index": [
+    1480,
+    1485
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-344.parquet",
+   "num_rows": 810,
+   "index": [
+    248292,
+    249101
+   ],
+   "episode_index": [
+    1486,
+    1492
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-345.parquet",
+   "num_rows": 732,
+   "index": [
+    249102,
+    249833
+   ],
+   "episode_index": [
+    1493,
+    1498
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-346.parquet",
+   "num_rows": 702,
+   "index": [
+    249834,
+    250535
+   ],
+   "episode_index": [
+    1499,
+    1504
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-347.parquet",
+   "num_rows": 810,
+   "index": [
+    250536,
+    251345
+   ],
+   "episode_index": [
+    1505,
+    1511
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-348.parquet",
+   "num_rows": 745,
+   "index": [
+    251346,
+    252090
+   ],
+   "episode_index": [
+    1512,
+    1517
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-349.parquet",
+   "num_rows": 743,
+   "index": [
+    252091,
+    252833
+   ],
+   "episode_index": [
+    1518,
+    1523
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-350.parquet",
+   "num_rows": 730,
+   "index": [
+    252834,
+    253563
+   ],
+   "episode_index": [
+    1524,
+    1529
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-351.parquet",
+   "num_rows": 748,
+   "index": [
+    253564,
+    254311
+   ],
+   "episode_index": [
+    1530,
+    1535
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-352.parquet",
+   "num_rows": 767,
+   "index": [
+    254312,
+    255078
+   ],
+   "episode_index": [
+    1536,
+    1541
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-353.parquet",
+   "num_rows": 766,
+   "index": [
+    255079,
+    255844
+   ],
+   "episode_index": [
+    1542,
+    1547
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-354.parquet",
+   "num_rows": 836,
+   "index": [
+    255845,
+    256680
+   ],
+   "episode_index": [
+    1548,
+    1554
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-355.parquet",
+   "num_rows": 794,
+   "index": [
+    256681,
+    257474
+   ],
+   "episode_index": [
+    1555,
+    1561
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-356.parquet",
+   "num_rows": 819,
+   "index": [
+    257475,
+    258293
+   ],
+   "episode_index": [
+    1562,
+    1568
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-357.parquet",
+   "num_rows": 813,
+   "index": [
+    258294,
+    259106
+   ],
+   "episode_index": [
+    1569,
+    1575
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-358.parquet",
+   "num_rows": 708,
+   "index": [
+    259107,
+    259814
+   ],
+   "episode_index": [
+    1576,
+    1581
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-359.parquet",
+   "num_rows": 745,
+   "index": [
+    259815,
+    260559
+   ],
+   "episode_index": [
+    1582,
+    1587
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-360.parquet",
+   "num_rows": 835,
+   "index": [
+    260560,
+    261394
+   ],
+   "episode_index": [
+    1588,
+    1593
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-361.parquet",
+   "num_rows": 828,
+   "index": [
+    261395,
+    262222
+   ],
+   "episode_index": [
+    1594,
+    1600
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-362.parquet",
+   "num_rows": 840,
+   "index": [
+    262223,
+    263062
+   ],
+   "episode_index": [
+    1601,
+    1607
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-363.parquet",
+   "num_rows": 768,
+   "index": [
+    263063,
+    263830
+   ],
+   "episode_index": [
+    1608,
+    1614
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-364.parquet",
+   "num_rows": 714,
+   "index": [
+    263831,
+    264544
+   ],
+   "episode_index": [
+    1615,
+    1620
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-365.parquet",
+   "num_rows": 777,
+   "index": [
+    264545,
+    265321
+   ],
+   "episode_index": [
+    1621,
+    1626
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-366.parquet",
+   "num_rows": 717,
+   "index": [
+    265322,
+    266038
+   ],
+   "episode_index": [
+    1627,
+    1632
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-367.parquet",
+   "num_rows": 807,
+   "index": [
+    266039,
+    266845
+   ],
+   "episode_index": [
+    1633,
+    1638
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-368.parquet",
+   "num_rows": 735,
+   "index": [
+    266846,
+    267580
+   ],
+   "episode_index": [
+    1639,
+    1644
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-369.parquet",
+   "num_rows": 756,
+   "index": [
+    267581,
+    268336
+   ],
+   "episode_index": [
+    1645,
+    1650
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-370.parquet",
+   "num_rows": 824,
+   "index": [
+    268337,
+    269160
+   ],
+   "episode_index": [
+    1651,
+    1656
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-371.parquet",
+   "num_rows": 784,
+   "index": [
+    269161,
+    269944
+   ],
+   "episode_index": [
+    1657,
+    1663
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-372.parquet",
+   "num_rows": 819,
+   "index": [
+    269945,
+    270763
+   ],
+   "episode_index": [
+    1664,
+    1670
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-373.parquet",
+   "num_rows": 760,
+   "index": [
+    270764,
+    271523
+   ],
+   "episode_index": [
+    1671,
+    1676
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-374.parquet",
+   "num_rows": 812,
+   "index": [
+    271524,
+    272335
+   ],
+   "episode_index": [
+    1677,
+    1683
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-375.parquet",
+   "num_rows": 747,
+   "index": [
+    272336,
+    273082
+   ],
+   "episode_index": [
+    1684,
+    1689
+   ]
+  },
+  {
+   "path": "data/chunk-000/file-376.parquet",
+   "num_rows": 382,
+   "index": [
+    273083,
+    273464
+   ],
+   "episode_index": [
+    1690,
+    1692
+   ]
+  }
+ ]
+}
